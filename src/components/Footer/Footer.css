@@ -1,0 +1,12 @@
+.foot {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+}
+
+p {
+  color: #fff;
+  margin-top: 20px;
+}

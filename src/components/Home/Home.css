@@ -1,0 +1,49 @@
+.hero-container {
+  background: url("storage.jpg") center center/cover no-repeat;
+  margin: 0 15px;
+  height: 90vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  object-fit: contain;
+}
+
+.cus {
+  margin: 30px auto;
+  font-size: x-large;
+  color: rgb(253, 253, 255);
+  border-color: #000;
+}
+
+.hero-container > h1 {
+  color: #fff;
+  margin-top: 50px;
+  margin-left: 15px;
+  font-size: 100px;
+  margin-top: -100px;
+  text-align: center;
+}
+
+.hero-container > p {
+  margin-top: 30px;
+  margin-left: 15px;
+  text-align: center;
+  color: #fff;
+  font-size: 32px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container > h1 {
+    font-size: 50px;
+    margin-top: -100px;
+  }
+
+  .hero-container > p {
+    font-size: 30px;
+  }
+}
