@@ -15,4 +15,6 @@ Technologies used:
 
 3.Redux state management system.
 
+IMPORTANT: In case if it doesn't load properly , Please clear your browser history and reload.
+
 Link to Website: https://tender-blackwell-25f374.netlify.app/
